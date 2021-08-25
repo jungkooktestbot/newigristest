@@ -1,8 +1,8 @@
 import sys
 import traceback
 from functools import wraps
-from Mizuki import pbot as app
-from Mizuki import EVENT_LOGS as LOG_GROUP_ID
+from SaitamaRobot import pbot as app
+from SaitamaRobot import EVENT_LOGS as LOG_GROUP_ID
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
 
