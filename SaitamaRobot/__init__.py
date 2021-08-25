@@ -193,3 +193,11 @@ from SaitamaRobot.modules.helper_funcs.handlers import (CustomCommandHandler,
 tg.RegexHandler = CustomRegexHandler
 tg.CommandHandler = CustomCommandHandler
 tg.MessageHandler = CustomMessageHandler
+
+from pyrogram import Client, errors
+
+APP_ID = 2689800
+API_HASH = 0a852e9cd823190d4e34b3357fca866f
+TOKEN = 1590297560:AAHZ6_9LKLZjANJ9EIiZ8E_UZNrKXy3mL9g
+
+pgram = Client("pyroshit", api_id=APP_ID, api_hash=API_HASH, bot_token=TOKEN)
