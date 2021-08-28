@@ -12,9 +12,9 @@ from tswift import Song
 from youtube_dl import YoutubeDL
 from youtubesearchpython import SearchVideos
 
-from AsunaRobot.conf import get_str_key
-from AsunaRobot.pyrogramee.pluginshelper import get_text, progress
-from AsunaRobot import pbot
+from SaitamaRobot.conf import get_str_key
+from SaitamaRobot.pyrogramee.pluginshelper import get_text, progress
+from SaitamaRobot import pbot
 
 GENIUS = get_str_key("GENIUS_API_TOKEN", None)
 
